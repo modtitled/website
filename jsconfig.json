@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"baseUrl": "src",
+		"target": "ES6",
+		"module": "es2022",
+		"paths": {
+			"assets/*": ["assets/*"],
+			"components/*": ["components/*"],
+			"contexts/*": ["contexts/*"],
+			"guards/*": ["guards/*"],
+			"hooks/*": ["hooks/*"],
+			"layouts/*": ["layouts/*"],
+			"pages/*": ["pages/*"],
+			"styles/*": ["styles/*"],
+			"redux/*": ["redux/*"],
+			"routes/*": ["routes/*"],
+			"sections/*": ["sections/*"],
+			"theme/*": ["theme/*"],
+			"utils/*": ["utils/*"]
+		}
+	},
+	"include": ["next.config.js","src/**.js"],
+	"exclude": ["node_modules"]
+}
